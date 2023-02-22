@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <title>Menu kaart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header class="cards-header">
+        <h1>Menu Kaart</h1>
+    </header>
+
+    <section class="filter">
+        <header>
+            <h2>Filter</h2>
+        </header>
+        <div class="filter">
+            <label class="filtercontainer">Pizza
+                <input type="checkbox" id="pizza">
+                <span class="checkmark"></span>
+            </label>
+            <label class="filtercontainer">Broodjes
+                <input type="checkbox" id="broodjes">
+                <span class="checkmark"></span>
+            </label>
+            <label class="filtercontainer">Drankjes
+                <input type="checkbox" id="drinken">
+                <span class="checkmark"></span>
+            </label>
+            <label class="filtercontainer">Favoriete items
+                <input type="checkbox" id="favorite">
+                <span class="checkmark"></span>
+            </label>
+        </div>
+    </section>
+    <div class="container">
+        <article class="card" data-parent="pizza">
+            <button class="button button-like">
+                <i class="fa fa-heart"></i>
+              </button>
+            <header>
+                <h2>Pizza: Vier Kazen</h2>
+            </header>
+            <figure>
+                <img src="https://static.ah.nl/dam/product/AHI_43545239383439323839?revLabel=1&rendition=800x800_JPG_Q90&fileType=binary"
+                    alt="vier kazen pizza">
+            </figure>
+            <section>
+                <header>
+                    <h3>Prijs</h3>
+                </header>
+                <p>15 euro</p>
+            </section>
+        </article>
+        <article class="card" data-parent="pizza">
+            <button class="button button-like">
+                <i class="fa fa-heart"></i>
+              </button>
+            <header>
+                <h2>Pizza: Mozzarella</h2>
+            </header>
+            <figure>
+                <img src="https://static.ah.nl/dam/product/AHI_43545239383439323833?revLabel=1&rendition=800x800_JPG_Q90&fileType=binary"
+                    alt="Shrek">
+            </figure>
+            <section>
+                <header>
+                    <h3>Prijs</h3>
+                </header>
+                <p>16 euro</p>
+            </section>
+        </article>
+        <article class="card" data-parent="pizza">
+            <button class="button button-like">
+                <i class="fa fa-heart"></i>
+              </button>
+            <header>
+                <h2>Pizza: Spinazie</h2>
+            </header>
+            <figure>
+                <img src="https://static.ah.nl/dam/product/AHI_43545239383439323832?revLabel=1&rendition=800x800_JPG_Q90&fileType=binary"
+                    alt="Shrek">
+            </figure>
+            <section>
+                <header>
+                    <h3>Prijs</h3>
+                </header>
+                <p>18 euro</p>
+            </section>
+        </article>
+        <article class="card" data-parent="broodjes">
+            <button class="button button-like">
+                <i class="fa fa-heart"></i>
+              </button>
+            <header>
+                <h2>Broodje: Kaas</h2>
+            </header>
+            <figure>
+                <img src="https://www.boodschappen.nl/app/uploads/recipe_images/4by3_header@2x/sandwich-oude-kaas-met-honing-mosterdsaus.jpg"
+                    alt="Broodje Kaas">
+            </figure>
+            <section>
+                <header>
+                    <h3>Prijs</h3>
+                </header>
+                <p>7 euro</p>
+            </section>
+        </article>
+        <article class="card" data-parent="broodjes">
+            <button class="button button-like">
+                <i class="fa fa-heart"></i>
+              </button>
+            <header>
+                <h2>Broodje: Ham</h2>
+            </header>
+            <figure>
+                <img src="https://bijonsvaassen-catering.nl/wp-content/uploads/2021/03/broodje-ham-scaled.jpg"
+                    alt="Broodje Ham">
+            </figure>
+            <section>
+                <header>
+                    <h3>Prijs</h3>
+                </header>
+                <p>9 euro</p>
+            </section>
+        </article>
+        <article class="card" data-parent="broodjes">
+            <button class="button button-like">
+                <i class="fa fa-heart"></i>
+              </button>
+            <header>
+                <h2>Broodje: Kip</h2>
+            </header>
+            <figure>
+                <img src="https://marielleindekeuken.nl/wp-content/uploads/2021/01/27D28F43-3F80-423F-84F8-E28018E2FB2B-scaled.jpeg"
+                    alt="Broodje Kip">
+            </figure>
+            <section>
+                <header>
+                    <h3>Prijs</h3>
+                </header>
+                <p>11 euro</p>
+            </section>
+        </article>
+
+        <article class="card" data-parent="drinken">
+            <button class="button button-like">
+                <i class="fa fa-heart"></i>
+              </button>
+            <header>
+                <h3>Drankje: Cola</h3>
+            </header>
+            <figure>
+                <img src="https://www.shinzo.nl/wp-content/uploads/2020/05/cocacola.png" alt="Cola">
+            </figure>
+            <section>
+                <header>
+                    <h3>Prijs</h3>
+                </header>
+                <p>2 euro</p>
+            </section>
+        </article>
+
+        <article class="card" data-parent="drinken">
+            <button class="button button-like">
+                <i class="fa fa-heart"></i>
+              </button>
+            <header>
+                <h3>Drankje: IJsthee</h3>
+            </header>
+            <figure>
+                <img src="https://static-images.jumbo.com/product_images/151220220754_425050FLS-1_360x360_2.png"
+                    alt="icetea">
+            </figure>
+            <section>
+                <header>
+                    <h3>Prijs</h3>
+                </header>
+                <p>2 euro</p>
+            </section>
+        </article>
+
+        <article class="card" data-parent="drinken">
+            <button class="button button-like">
+                <i class="fa fa-heart"></i>
+              </button>
+            <header>
+                <h3>Drankje: Fristi</h3>
+            </header>
+            <figure>
+                <img src="https://www.eethuishetbildt.nl/wp-content/uploads/2021/03/fristi.png" alt="Fristi">
+            </figure>
+            <section>
+                <header>
+                    <h3>Prijs</h3>
+                </header>
+                <p>2 euro</p>
+            </section>
+        </article>
+    </div>
+    <script>
+        const cards = document.querySelectorAll('.card');
+        const pizzacheckbox = document.querySelector('#pizza');
+        const broodjescheckbox = document.querySelector('#broodjes');
+        const drinkencheckbox = document.querySelector('#drinken');
+        const favoritecheckbox = document.querySelector('#favorite');
+        const allecheckbox = document.querySelectorAll('input[type="checkbox"]');
+        const favoriteItems = [];
+
+        allecheckbox.forEach(check => {
+            check.addEventListener('change', function () {
+                if (pizzacheckbox.checked) {
+                    cards.forEach(card => {
+                        if (card.dataset.parent === 'pizza') {
+                            card.classList.remove('hidden');
+                        }
+                    })
+                } else {
+                    cards.forEach(card => {
+                        if (card.dataset.parent === 'pizza') {
+                            card.classList.add('hidden');
+                        }
+                    })
+                }
+                if (broodjescheckbox.checked) {
+                    cards.forEach(card => {
+                        if (card.dataset.parent === 'broodjes') {
+                            card.classList.remove('hidden');
+                        }
+                    })
+                } else {
+                    cards.forEach(card => {
+                        if (card.dataset.parent === 'broodjes') {
+                            card.classList.add('hidden');
+                        }
+                    })
+                }
+                if (drinkencheckbox.checked) {
+                    cards.forEach(card => {
+                        if (card.dataset.parent === 'drinken') {
+                            card.classList.remove('hidden');
+                        }
+                    })
+                } else {
+                    cards.forEach(card => {
+                        if (card.dataset.parent === 'drinken') {
+                            card.classList.add('hidden');
+                        }
+                    })
+                }
+
+                if (favoritecheckbox.checked) {
+                    cards.forEach(card => {
+                        if (favoriteItems.includes(card)) {
+                            card.classList.remove('hidden');
+                        } else {
+                            card.classList.add('hidden');
+                        }
+                    })
+                } else {
+                    cards.forEach(card => {
+                        if (favoriteItems.includes(card)) {
+                            card.classList.add('hidden');
+                        }
+                    })
+                }
+                
+
+                if (!pizzacheckbox.checked && !broodjescheckbox.checked && !drinkencheckbox.checked && !favoritecheckbox.checked) {
+                    cards.forEach(card => {
+                        card.classList.remove('hidden');
+                    })
+                }
+            })
+        })
+
+
+        const favoriteButtons = document.querySelectorAll('button');
+
+        favoriteButtons.forEach(Button => {
+            Button.addEventListener('click', function () {
+                Button.classList.toggle('liked');
+                if (Button.classList.contains('liked')) {
+                    favoriteItems.push(Button.parentElement);
+                } else {
+                    favoriteItems.splice(favoriteItems.indexOf(Button.parentElement), 1);
+                }
+                if (favoritecheckbox.checked) {
+                    cards.forEach(card => {
+                        if (favoriteItems.includes(card)) {
+                            card.classList.remove('hidden');
+                        } else {
+                            card.classList.add('hidden');
+                        }
+                    })
+                } else {
+                    cards.forEach(card => {
+                        if (favoriteItems.includes(card)) {
+                            card.classList.remove('hidden');
+                        }
+                    })
+                }
+            })
+        })
+
+
+    </script>
+</body>
+
+
+</html>
